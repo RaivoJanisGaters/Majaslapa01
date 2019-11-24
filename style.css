@@ -1,0 +1,62 @@
+.mainbox{
+    background-color: antiquewhite;
+    width: 800px;
+    margin: 0px auto;
+
+}
+.menu{
+    background-color: green;
+}
+
+.leftside{
+    background-color: aqua;
+    width: 100px;
+    float:left;
+}
+
+.main{
+    background-color: blue;
+    width: 600px;
+    float:left;
+}
+
+.rightside{
+    background-color: blueviolet;
+    width: 100px;
+    float:left;
+}
+
+.footer{
+    background-color: brown;
+}
+
+.menu{
+    height: 37px;
+    text-align: center;
+}
+
+.menu>ul>li{
+    display:inline;
+    padding:10px 10px 10px 10px;
+    background-color: chartreuse;
+    position: relative;
+    top:0px;
+    font-family:Verdana,serif;
+    font-size: 15px;
+}
+
+.menu>ul>li>a{
+    text-decoration: none;
+    color:#fff;
+}
+
+.gallery{
+    max-width: 100px;
+}
+.mgallery{
+    text-align: center;
+}
+
+.videofails{
+    position: relative;
+}
